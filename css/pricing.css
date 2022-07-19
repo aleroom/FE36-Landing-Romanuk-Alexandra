@@ -1,5 +1,5 @@
 
-.pricing {
+#pricing {
     padding: 80px 0 96px;
     background-color: #F5F5F5;
 }
@@ -14,11 +14,16 @@
 .pricing__wrap{
     display: flex;
     justify-content: space-between;
+    margin: 0 -15px;
+    flex-wrap: wrap;
+}
+.list {
+    margin: 0 15px;
 }
 
 .list__item--tariff {
     width: 340px;
-    padding: 10px;
+    padding: 10px 0;
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     font-size: 20px;
@@ -30,7 +35,7 @@
 .list__item--price {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
-    padding: 35px;
+    padding: 35px 0;
     background-color: #333333;
     text-align: center;
     color: #FFFFFF;
@@ -44,7 +49,7 @@
     background-color: #333333;
     text-align: center;
     color: rgba(255,255,255,0.5);
-    padding: 20px;
+    padding: 20px 0;
 } 
 
 .list__item {
@@ -53,7 +58,7 @@
     font-size: 14px;
     margin-bottom: 2px;
     text-align: center;
-    padding: 10px;
+    padding: 10px 0;
     background-color: white;
     color:#86878B;
 }
