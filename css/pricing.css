@@ -11,6 +11,7 @@
     margin-bottom: 68px;
     font-family: 'Open Sans', sans-serif;
 }
+
 .pricing__wrap{
     display: flex;
     justify-content: space-between;
@@ -62,4 +63,3 @@
     background-color: white;
     color:#86878B;
 }
-

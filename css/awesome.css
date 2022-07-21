@@ -4,32 +4,23 @@
 }
 
 
-.awesome__title {
-    margin-bottom: 34px;
-    font-size: 36px;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 400;
-}
-.title {
-    text-align: center;
-    text-transform: uppercase;
-}
-
-
 .awesome__descr {
     color: #86878B;
     text-align: center;
     font-size: 14px;
     margin-bottom: 68px;
 }
-  
+
 
 .awesome__wrap {
     display: flex;
     justify-content: space-between;
+    margin: 0 -15px;
+    flex-wrap: wrap;
 }
 .card {
     width: 350px;
+    margin: 0 15px;
 }
 .card :hover {
     box-shadow: 10px 5px 5px rgb(175, 172, 172);
