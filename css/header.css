@@ -33,7 +33,7 @@
     color: #EC7979;
 }
 
-.axit_items {
+.axit_nav {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -41,7 +41,7 @@
 
    
 }
-.axit_items a {
+.axit_nav a {
     color: #fff;
     padding: 20px;
     margin: 0 15px;
@@ -52,11 +52,11 @@
     font-size: 15px;
   
 }
-.axit_items a:hover {
+.axit_nav a:hover {
     color: #e6cdcd;
     opacity: 0.85;
 }
-.axit_items li:hover {
+.axit_nav li:hover {
     border-bottom: 1px solid #fff;
     padding: 5px;
     border-color: rgb(168, 112, 112);
