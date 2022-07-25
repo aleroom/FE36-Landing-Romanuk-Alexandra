@@ -60,4 +60,5 @@
   background-color: rgb(223, 207, 207, 0.55);
   color: rgb(43, 10, 10);
   border: 1px solid rgb(65, 47, 47);
+  cursor: pointer;
 }
