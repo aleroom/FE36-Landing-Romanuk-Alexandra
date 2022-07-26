@@ -11,7 +11,6 @@
 
 .axit {
     display: flex;
-    
     flex-direction: row;
     justify-content: space-between;
 
@@ -41,24 +40,23 @@
 
    
 }
-.axit_nav a {
-    color: #fff;
-    padding: 20px;
+.axit_nav-item {
+    padding: 10px;
     margin: 0 15px;
     text-transform: capitalize;
     font-family: 'Open Sans';
     font-style: normal;
-    font-weight: 500;
-    
-  
+    font-weight: 500; 
 }
-
-.axit_nav_item:hover {
-    border-bottom: 1px solid #fff;
-    border-color: rgb(168, 112, 112);
+.axit_nav a {
+    color: rgb(255, 255, 255);
+    border-width: 10px 10px 10px 10px;
+    border-color: #fff;
+}
+.axit_nav-item:hover {
+    border-bottom: 1px solid rgb(184, 129, 129);
     transform: translate(5px,5px);
-    color: rgb(230, 205, 205);
-    opacity: 0.85;
+   
 }
 
     
