@@ -3,6 +3,8 @@
 @import url(./customers.css);
 @import url(./axure.css);
 @import url(./header.css);
+@import url(./social.css);
+@import url(./footer.css);
 
 *{
     padding: 0;
@@ -25,6 +27,9 @@
     margin-bottom: 34px;
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
+}
+.title:hover {
+    transform: scale(1.2,1.2) ;
 }
 
 .title::after {

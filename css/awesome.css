@@ -23,8 +23,9 @@
     width: 350px;
     margin: 0 15px;
 }
-.card :hover {
-    box-shadow: 10px 5px 5px rgb(175, 172, 172);
+.card__text :hover {
+    box-shadow: 10px 5px 15px rgb(39, 21, 21);
+    border-color: hsl(34, 78%, 91%, 0.2);
 }
 .card__content {
     padding: 30px;

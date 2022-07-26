@@ -49,21 +49,16 @@
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 500;
-    font-size: 15px;
+    
   
 }
-.axit_nav a:hover {
-    color: #e6cdcd;
-    opacity: 0.85;
-}
-.axit_nav li:hover {
+
+.axit_nav_item:hover {
     border-bottom: 1px solid #fff;
-    padding: 5px;
     border-color: rgb(168, 112, 112);
-    
-   
-    
-   
+    transform: translate(5px,5px);
+    color: rgb(230, 205, 205);
+    opacity: 0.85;
 }
 
     
