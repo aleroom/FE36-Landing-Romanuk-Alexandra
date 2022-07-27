@@ -3,7 +3,7 @@
 
 #footer {
     background-color: #000000;
-    padding: 40px;
+    padding: 30px;
 }
 .footer_info{
     display: flex;
@@ -41,6 +41,5 @@
     font-family: "Font Awesome 6 Free";
     font-weight: 600;
     color: rgba(255, 255, 255, 0.8);
-
     margin-right: 5px;
 }
