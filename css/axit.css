@@ -25,10 +25,7 @@
     justify-content: space-between;
 
 }
-.axit_wrap-left {
 
-
-}
 .axit_title {
     text-transform: uppercase;
     color: #FFFFFF;
@@ -43,6 +40,20 @@
 }
 .axit_descr{
     width: 544px;
+   
+}
+.axit_text{
+    font-family: Raleway;
+    font-size: 16px;
+    line-height: 25px;
+    width: 282px;
+}
+
+.axit_text p {
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 42px;
+}
+.axit_descr p{
     text-transform: uppercase;
     font-family: 'Raleway';
     font-style: normal;
@@ -50,14 +61,34 @@
     font-size: 36px;
     line-height: 42px;
     color: #fff;
-    
 }
 .axit_descr::after {
     width: 68px;
     height: 2px;
+    content: '';
+    display: block;
     background-color: #fff;
+    margin: 42px 0;
 }
 
-.axit_wrap-right {
 
-}
+/*.axit_link {
+    display: block;
+    width: 135px;
+    height: 42px;
+    border: 1px solid #FFFFFF;
+    padding: 10px 20px;
+    color: #fff;
+    text-align: center;
+    border-radius: 60px;
+       
+  }
+  
+  .axit_link:hover{
+    background-color: rgb(223, 207, 207, 0.55);
+    color: rgb(43, 10, 10);
+    border: 1px solid rgb(65, 47, 47);
+    cursor: pointer;
+  }*/
+
+
