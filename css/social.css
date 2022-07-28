@@ -28,18 +28,16 @@
 }
 
 .social_nav{
-    /*display: flex;
-    justify-content: center;
-    align-items: center;*/
-    display: block;
-    text-align: center;
-    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+      
 }
 .social_nav a{
-    /*text-align: center;*/
+    text-align: center;
     padding: 0 25px;
-    /*margin-right: 40px;*/
 }
+
 .fa-facebook-f, .fa-twitter, .fa-google-plus-g, .fa-pinterest, .fa-instagram, .fa-wifi, .fa-facebook-messenger {
     font-size: 30px;
     color: rgb(177, 175, 175);

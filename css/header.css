@@ -42,7 +42,7 @@
 
 .axit_nav-item {
     padding: 15px 0;
-    margin: 0 15px;
+    margin: 0 20px;
     text-transform: capitalize;
     font-family: 'Open Sans';
     font-style: normal;
@@ -50,14 +50,13 @@
 }
 
 .axit_nav a {
-    color: rgb(255, 255, 255);
-    border-width: 10px 10px 10px 10px;
+    color: rgb(255, 255, 255);  
     border-color: #fff;
 }
 
 .axit_nav-item:hover {
     border-bottom: 1px solid rgb(184, 129, 129);
-    transform: translate(5px, 5px); 
+    transform: translate(-5px, 5px); 
 }
 
     
