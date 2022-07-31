@@ -7,16 +7,22 @@
 .social_media {
     display: flex;
     justify-content:space-between;
+    margin: 0 -15px;
 }
 .social_descr {
     width: 365px;
+    margin: 0 15px;
+    
 }
 .social_descr_title{
+    text-align: left;
+    margin-bottom: 14px;
+    
+}
+.social_descr_title h2 {
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 700;
-    text-align: left;
-    margin-bottom: 14px;
     font-size: 20px;
 }
 .social_descr_text{
@@ -28,51 +34,59 @@
 }
 
 .social_nav{
+    width: 560px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 15px;
       
 }
 .social_nav a{
-    text-align: center;
-    padding: 0 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+   
 }
 
-.fa-facebook-f, .fa-twitter, .fa-google-plus-g, .fa-pinterest, .fa-instagram, .fa-wifi, .fa-facebook-messenger {
+.facebook, .twitter, .google, .pinterest, .instagram, .wifi, .messenger {
     font-size: 30px;
-    color: rgb(177, 175, 175);
     cursor: pointer;
 }
-.fa-wifi{
+.facebook a, .twitter a, .google a, .pinterest a, .instagram a,  .wifi a, .messenger a{
+    color: rgb(177, 175, 175);
+    transition: 0.1s;
+}
+.wifi a{
     transform: rotate(45deg);
 }
-.fa-facebook-f:hover  {
+.facebook a:hover  {
     color: #3b5998;
     transform: scale(2, 2);
 }
-.fa-twitter:hover {
+.twitter a:hover {
     color: #00acee;
     transform: scale(2, 2);
     
 }
-.fa-google-plus-g:hover{
+.google a:hover{
     color: blue;
     transform: scale(2, 2);
 }
-.fa-pinterest:hover {
+.pinterest a:hover {
     color: #e61919;
     transform: scale(2, 2);
 }
-.fa-instagram:hover {
+.instagram a:hover {
     color: rgb(131, 58, 180);
     transform: scale(2, 2);
 }
 
-.fa-facebook-messenger:hover {
+.messenger a:hover {
     color: rgb(0, 132, 255);
     transform: scale(2, 2);
 }
-.fa-wifi:hover {
+.wifi a:hover {
     color: rgb(206, 166, 166);
     transform: scale(2, 2);
     transition: 0.2;

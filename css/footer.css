@@ -1,29 +1,28 @@
 
 
-
 #footer {
     background-color: #000000;
     padding: 30px;
 }
-.footer_info{
+
+.footer_nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-}
-.footer_nav {
     margin-bottom: 20px;
-}
-.footer_nav a{
-    margin-right: 40px;
     
 }
-.fa-circle-c{
-    color: rgb(252, 252, 252);
-    font-size: 20px;
+.footer_nav a{
+    margin: 0 20px 20px;
+    
+}
+.wifi a{
+    transform: rotate(45deg);
 }
 .footer_descr{
     display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 .footer_descr p{
@@ -33,13 +32,5 @@
     font-size: 12px;
     color: rgba(255, 255, 255, 0.5);
     text-transform: capitalize;
-    
-}
-
-.footer_descr p::before{
-    content: '\f1f9';
-    font-family: "Font Awesome 6 Free";
-    font-weight: 600;
-    color: rgba(255, 255, 255, 0.8);
-    margin-right: 5px;
+   
 }

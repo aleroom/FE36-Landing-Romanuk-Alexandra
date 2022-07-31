@@ -12,9 +12,9 @@
 
     <header id="header">
         <div class="container">
-            <div class="axit">
-                <div class="axit_logo">
-                    <span>ax<span class="axit_logo-span">it</span></span>
+            <div class="header__axit">
+                <div class="header__axit-logo">
+                    <span>ax<span class="axit__logo-span">it</span></span>
                 </div>
                 <ul class="axit_nav">
                     <li class="axit_nav-item"><a href="#">feautures</a> </li>
@@ -30,7 +30,6 @@
     <section id="axit">
         <div class="container">
             <div class="axit__wrap">
-
                 <div class="axit__wrap-left">
                     <h1 class="axit__title">ax<span>it</span></h1>
                     <div class="axit__descr">
@@ -39,32 +38,32 @@
                     <div class="axit__text">
                         <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean</span>
                     </div>
-                    <a href="https://www.google.com/" class="axit_link">Download</a>
+                    <a href="https://www.google.com/" class="axit__link">Download</a>
                 </div>
 
-                <div class="axit_wrap-right">
-                    <form action="" >
+                <div class="axit__wrap-right">
+                    <form class="axit__right" >
                         <div class="form__content">
                             <h3 class="form__content-title">Try your <span>free</span> trial today</h3>
-                            <item class="form__item">
+                            <div class="form__item">
                                 <label for="Name">Name</label>
                                 <input type="text" id="Name">
-                            </item>
-                            <item class="form__item">
+                            </div>
+                            <div class="form__item">
                                 <label for="Email">Email</label>
                                 <input type="email" id="Email">
-                            </item>
-                            <item class="form__item">
+                            </div>
+                            <div class="form__item">
                                 <label for="Password">Password</label>
                                 <input type="password" id="Password">
-                            </item>
+                            </div>
                         </div>
                         <button type="submit" class="btn">Get started</button>
                         
                         
                     </form>
-                </div>     
-                
+
+                </div>
             </div>
         </div>
 
@@ -75,7 +74,7 @@
             <div class="social_media">
                 <div class="social_descr">
                     <div class="social_descr_title">
-                        <p>Social media</p>  
+                        <h2>Social media</h2>  
                 </div>
                     <div class="social_descr_text">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -83,13 +82,43 @@
                     </div>
                 </div>    
                     <div class="social_nav">
-                        <a href="https://ru-ru.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
-                        <a href="https://twitter.com/?lang=ru"><i class="fa-brands fa-twitter"> </i></a>
-                        <a href="https://www.google.com/"><i class="fa-brands fa-google-plus-g"></i></a>
-                        <a href="https://www.pinterest.com/"> <i class="fa-brands fa-pinterest"></i></a>
-                        <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
-                        <a href="https://www.messenger.com/?locale=ru_RU"><i class="fa-brands fa-facebook-messenger"></i></a>
-                        <a href="https://www.tp-link.com/ru/wifi/"><i class="fa-solid fa-wifi"></i></a>
+                        <div class="facebook">
+                            <a href="https://ru-ru.facebook.com/">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </a>
+                        </div>
+                        <div class="twitter"> 
+                            <a href="https://twitter.com/?lang=ru">
+                                <i class="fa-brands fa-twitter"> </i>
+                            </a>
+                        </div>
+                       <div class="google">
+                            <a href="https://www.google.com/">
+                                <i class="fa-brands fa-google-plus-g"></i>
+                            </a>
+                       </div>
+                        <div class="pinterest">
+                            <a href="https://www.pinterest.com/">
+                                <i class="fa-brands fa-pinterest"></i>
+                            </a>
+                        </div>
+                        <div class="instagram">
+                            <a href="https://www.instagram.com/">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </div>
+                        <div class="messenger">
+                            <a href="https://www.messenger.com/?locale=ru_RU">
+                                <i class="fa-brands fa-facebook-messenger"></i>
+                            </a>
+                        </div>
+                        <div class="wifi">
+                            <a href="https://www.tp-link.com/ru/wifi/">
+                                <i class="fa-solid fa-wifi"></i>
+                            </a>
+                        </div>
+                        
+                        
                     </div>
 
             </div>
@@ -305,18 +334,18 @@
             <div class="contact__wrap">
                 <div class="contact__wrap-content">
                     <div class="contact__wrap-content-left">
-                        <item class="form__item">
+                        <div class="form__item">
                             <label for="Name">Name</label>
                             <input type="text" id="Name">
-                        </item>
-                        <item class="form__item">
+                        </div>
+                        <div class="form__item">
                             <label for="Email">Email</label>
                             <input type="email" id="Email">
-                        </item>
-                        <item class="form__item">
+                        </div>
+                        <div class="form__item">
                             <label for="Password">Password</label>
                             <input type="password" id="Password">
-                        </item>
+                        </div>
                     </div>
                     <div class="contact__wrap-content-right">
                         <label for="message" class="contact__wrap-content-right-message">Message</label>
@@ -333,18 +362,54 @@
     <footer id="footer">
         <div class="container">
             <div class="footer_info">
-                <div class="footer_nav">
-                    <a href="https://ru-ru.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
-                    <a href="https://twitter.com/?lang=ru"><i class="fa-brands fa-twitter"> </i></a>
-                    <a href="https://www.google.com/"><i class="fa-brands fa-google-plus-g"></i></a>
-                    <a href="https://www.pinterest.com/"> <i class="fa-brands fa-pinterest"></i></a>
-                    <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
-                    <a href="https://www.messenger.com/?locale=ru_RU"><i class="fa-brands fa-facebook-messenger"></i></a>
-                    <a href="https://www.tp-link.com/ru/wifi/"><i class="fa-solid fa-wifi"></i></a>
-                </div>
-                <div class="footer_descr">
-                    <p>2015 axure themes</p> 
-                </div>
+                    <div class="footer_nav">
+                        <div class="facebook">
+                            <a href="https://ru-ru.facebook.com/">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </a>
+                        </div>
+
+                        <div class="twitter"> 
+                            <a href="https://twitter.com/?lang=ru">
+                                <i class="fa-brands fa-twitter"> </i>
+                            </a>
+                        </div>
+
+                        <div class="google">
+                                <a href="https://www.google.com/">
+                                    <i class="fa-brands fa-google-plus-g"></i>
+                                </a>
+                        </div>
+
+                        <div class="pinterest">
+                            <a href="https://www.pinterest.com/">
+                                <i class="fa-brands fa-pinterest"></i>
+                            </a>
+                        </div>
+
+                        <div class="instagram">
+                            <a href="https://www.instagram.com/">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </div>
+
+                        <div class="messenger">
+                            <a href="https://www.messenger.com/?locale=ru_RU">
+                                <i class="fa-brands fa-facebook-messenger"></i>
+                            </a>
+                        </div>
+
+                        <div class="wifi">
+                            <a href="https://www.tp-link.com/ru/wifi/">
+                                <i class="fa-solid fa-wifi"></i>
+                            </a>
+                        </div>
+                        
+                    </div>
+
+                    <div class="footer_descr">
+                        <p>2015 axure themes</p> 
+                    </div>
             </div>    
         </div>
 

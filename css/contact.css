@@ -21,18 +21,23 @@
     
 }
 .contact__wrap-content-left {
-    width: 478px;
-    padding: 30px 0 0;
+    width: 40%;
+    
 }
-/*.form__item {
+.form__item {
+    margin-bottom: 35px;
+    color: #BDBDBD;
+}
+.form__item:last-child{
+    margin-bottom: 0;
 }
 .contact__wrap-content-right{
-    
+    width: 40%;
 }
 .contact__wrap-content-right label{
     display: block;
     
-}*/
+}
 
 .contact__wrap-content-right-message {
     font-family: 'Open Sans';
@@ -58,4 +63,9 @@
     cursor: pointer;
     margin: 0 auto;
 
+}
+
+.contact__btn:hover {
+    background-color: #ec5656;
+    transform: scale(1.5, 1.5);
 }
