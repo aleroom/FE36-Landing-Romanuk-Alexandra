@@ -40,18 +40,20 @@
 }
 .axit__title span {
     color: #EC7979;
+    font-size: 60px;
 }
 
-.axit__text{
-    font-family: Raleway;
+.axit__text {
     font-size: 16px;
-    line-height: 25px;
+    line-height: 20px;
     width: 282px;
+    font-family: 'Raleway';
+      
 }
 
 .axit__text span {
     color: rgba(255, 255, 255, 0.8);
-    /*margin-bottom: 42px;*/
+    
 }
 .axit__descr span{
     text-transform: uppercase;
@@ -117,8 +119,10 @@
     
 }
 .form__content-title span {
-    color: #EC7979;
+    color: #c50303;
+    font-weight: 700;
     text-transform: uppercase;
+    font-size: 18px;
 }
 
 .form__item{

@@ -13,20 +13,21 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 -15px;
 }
 
 .header__axit-logo {
     text-transform: uppercase;
     color: #fff;
-    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
     font-style: normal;
     font-weight: 400;
-    font-size: 30px;
-    line-height: 35px;
+    margin: 0 15px;
+    font-family: 'Raleway', sans-serif;
     
 }
 
-.axit__logo-span {
+.logo-span {
     color: #EC7979;
 }
 
