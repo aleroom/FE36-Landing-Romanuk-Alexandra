@@ -19,16 +19,20 @@
 .header__axit-logo {
     text-transform: uppercase;
     color: #fff;
-    font-size: 30px;
+    
     font-style: normal;
     font-weight: 400;
     margin: 0 15px;
-    font-family: 'Raleway', sans-serif;
+    /*font-family: 'Raleway', sans-serif;*/
     
 }
+.header__axit-logo span {
+    font-size: 30px;
+}
 
-.logo-span {
+.it {
     color: #EC7979;
+    font-size: 30px;
 }
 
 
@@ -56,9 +60,21 @@
 }
 
 .axit_nav-item:hover {
-    border-bottom: 1px solid rgb(184, 129, 129);
-    transform: translate(5px, 5px); 
-   
+    box-shadow: 0 0 10px rgba(220, 190, 190, 0.5);
+    transform: scale(1.5, 1.5); 
+    transition: 0.3s;   
+}
+
+@media (max-width: 1261px) {
+    .header__axit {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .header__axit-logo {
+        margin-right: 170px;
+    }
 }
 
     
