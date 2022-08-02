@@ -162,3 +162,26 @@
         margin-right: 80px;
     }
 }
+@media (max-width: 750px) {
+    .tabs__content-right {
+        display: none;
+    }
+    .tabs__content-left {
+        display: block;
+        margin: 0 auto;
+        width: 500px;
+        
+}
+    .soft__title {
+        font-size: 22px;
+        text-align: center;
+    }
+    .soft__descr{
+        margin-bottom: 10px;
+    }
+    .soft__descr p, span{
+        font-size: 18px;
+        text-align: center;
+    }
+    
+}

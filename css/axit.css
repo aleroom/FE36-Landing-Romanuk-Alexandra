@@ -160,13 +160,116 @@
 }
 
 
-@media (max-width: 1261px) {
-     .axit__wrap-right  {
-        width: 35%;
+@media (max-width: 1000px) {
+     .axit__wrap {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+     }
+     .axit__wrap-left{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+        
+     }
+     .axit__descr {
+        text-align: center;
+        line-height: 15px;
+     }
 
-    }
-    .axit__wrap-left {
-        width: 48%;
-    }
+     .axit__descr::after{
+        margin: 0 auto;
+     }
+     .axit__text {
+        margin-top: 10px;
+        text-align: center;
+     }
+     .axit__link {
+        margin: 10px ;
+     }
+     .axit__wrap-right{
+        font-size: 16px;
+     }
+     .axit__right {
+        font-size: 1.1em;
+     }
 }
+@media (max-width: 900px) {
+    #axit {
+        padding: 20px 0;
+    }
+    .axit__wrap-right {
+        width: 400px;
+        background-color: rgba(255, 255, 255, 0.5);
+     }
+    .axit__right {
+        font-size: 1.3em;
+     }
+}
+@media (max-width: 600px){
+    .axit__wrap-left{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+      
+     }
+     .axit__wrap-right {
+        width: 470px;
+        background-color: rgba(255, 255, 255, 0.5);
+     }
+     .axit__link {
+        
+        display: block;
+        width: 175px;
+        height: 42px;
+        font-size: 1.2em;
+        border: 1px solid #FFFFFF;
+        text-align: center;
+        color: #fff;
+        background-color: rgba(189, 189, 189, 0.5);
+        border-radius: 30px;
+        margin-bottom: 20px;
+               
+      }
+      .btn {
+        display: block;
+        width: 100%;
+        height: 70px;
+        text-transform: uppercase;
+        background: #EC7979;
+        border: none;
+        font-size: 1.5em;
+        color: #FFFFFF;
+        
+    }
+      
+}
+@media (max-width: 550px) {
+    .axit__descr {
+        display: flex;
+        
+    }
+    .axit__right {
+        width: 100%;
+    }
+    .axit__wrap-right {
+        width: 400px;
+        background-color: rgba(255, 255, 255, 0.5);
+        
+        
+    }
+    .axit__right {
+        overflow: hidden;
+    }
+    
+    .form__content{
+        padding: 10px 20px 70px;
+        
+    }
+    
+}
+
+
     

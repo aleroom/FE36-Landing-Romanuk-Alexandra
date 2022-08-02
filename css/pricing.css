@@ -64,9 +64,4 @@
     color:#86878B;
 }
 
-@media (max-width:1110px) {
-    .list {
-        width: 30%;
-    }
-
-}
+/*@media (max-width:1110px) */

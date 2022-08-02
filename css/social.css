@@ -90,5 +90,41 @@
     color: rgb(206, 166, 166);
     transform: scale(2, 2);
     transition: 0.2;
-}   
+}  
+
+@media (max-width: 1000px) {
+    .social_media {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .social_descr {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+        
+}
+    .social_descr p {
+        font-size: 1em;
+    }
+    .social_descr_text {
+        text-align: center;
+        
+    }
+    .facebook, .twitter, .google, .pinterest, .instagram, .wifi, .messenger{
+        font-size: 35px;
+    }
      
+}
+@media (max-width: 1000px) {
+    .social_media {
+        display: flex;
+        
+    }
+
+    .social_nav{
+        width: 100%;
+
+    }
+}
