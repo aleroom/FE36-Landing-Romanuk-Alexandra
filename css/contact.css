@@ -31,6 +31,14 @@
 .form__item:last-child{
     margin-bottom: 0;
 }
+.name {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #BDBDBD;
+}
+
 .contact__wrap-content-right{
     width: 40%;
 }
@@ -68,4 +76,46 @@
 .contact__btn:hover {
     background-color: #ec5656;
     transform: scale(1.5, 1.5);
+}
+
+@media (max-width: 1120px) {
+    .contact__descr {
+        font-size: 16px;
+    }
+    .contact__wrap-content-right-message {
+        font-size: 16px;
+    }
+    .form__item label {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 870px) {
+    .contact__descr {
+        font-size: 18px;
+    }
+    .contact__wrap-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      
+    }
+    .contact__wrap-content-left {
+        width: 90%;
+        margin-bottom: 50px;
+    }
+    .contact__wrap-content-right {
+        width: 90%;
+        
+    }
+    .contact__btn {
+        display: block;
+        padding: 20px 20px;
+        background-color: #EC7979;
+        border: none;
+        border-radius: 30px;
+        color: #FFF;
+        cursor: pointer;
+        font-size: 19px;
+}
 }

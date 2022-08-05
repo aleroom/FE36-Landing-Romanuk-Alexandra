@@ -96,7 +96,7 @@
     .header__axit{
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
         margin: 0 -15px;
     }
@@ -120,11 +120,11 @@
         display: flex;
         flex-direction: row;
         justify-content: center;        
-        margin: 0 -15px;
-        width: 60%;
+       /* margin: 0 -15px;
+        width: 60%;*/
     }
     .header__axit-logo {
-        
+        font-size: 20px;
         margin-right: 40px;
     }
     .header__axit-logo span {
@@ -133,6 +133,7 @@
     .axit_nav{
         display: flex;
         flex-direction: column;
+        
 
     }
     .axit_nav-item{
@@ -140,8 +141,27 @@
         flex-direction: column;
         font-size: 2em;
         margin-bottom: 20px;
+        
     }
     .axit_nav a:hover {
         color: #EC7979;
+    }
+
+}
+@media (max-width: 420px){
+    .header__axit {
+        width: 100%;
+
+    }
+    .header__axit-logo  {
+        margin-right: 20px;
+    }
+    /*.axit_nav-item{
+       
+    }*/
+}
+@media (max-width: 370px){
+    .header__axit-logo  {
+        margin-right: 10px;
     }
 }
