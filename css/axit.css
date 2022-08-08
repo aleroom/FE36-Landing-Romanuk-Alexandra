@@ -246,27 +246,11 @@
     }
       
 }
-@media (max-width: 550px) {
-    .axit__descr {
+@media (max-width: 570px) {
+    .axit__wrap-left{
         display: flex;
-        
-    }
-    .axit__right {
-        width: 100%;
-    }
-    .axit__wrap-right {
-        width: 400px;
-        background-color: rgba(255, 255, 255, 0.5);
-        
-        
-    }
-    .axit__right {
-        overflow: hidden;
-    }
-    
-    .form__content{
-        padding: 10px 20px 70px;
-        
+        flex-wrap: wrap;
+        max-width: 570px;
     }
     
 }
