@@ -63,5 +63,29 @@
     background-color: white;
     color:#86878B;
 }
+@media (max-width:738px) {
+    .pricing__wrap {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 -15px;
+        flex-wrap: wrap;
 
-/*@media (max-width:1110px) */
+    }
+    .list {
+        margin-bottom: 35px;
+    }
+    .list:last-child {
+        margin-bottom: 0px;
+    }
+        
+    
+}
+
+
+@media (max-width:550px) {
+    .pricing__wrap {
+        width: 100%;
+        
+    }
+}

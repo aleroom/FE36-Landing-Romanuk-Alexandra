@@ -169,7 +169,7 @@
     .tabs__content-left {
         display: block;
         margin: 0 auto;
-        width: 500px;
+        width: 100%;
         
 }
     .soft__title {
@@ -181,7 +181,33 @@
     }
     .soft__descr p, span{
         font-size: 18px;
-        text-align: center;
+        
+    }
+    .soft__btn {
+        display: block;
+        margin: 20px auto 0;
+    }
+    
+}
+@media (max-width: 550px) {
+    .tabs__content-left {
+        display: block;
+        margin: 0 auto;
+        width: 85%;
+}
+}
+@media (max-width: 350px){
+    
+    .tabs__btn {
+        margin: 0;
+        margin-bottom: 0;
+        margin-right: 0;
+    }
+    
+    
+    .button .tabs__button  {
+        width: 50px;
+        height: 50px;
     }
     
 }
