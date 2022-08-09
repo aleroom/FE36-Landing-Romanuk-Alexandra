@@ -247,12 +247,27 @@
       
 }
 @media (max-width: 570px) {
+    .axit__wrap {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
     .axit__wrap-left{
         display: flex;
         flex-wrap: wrap;
-        max-width: 570px;
+        width: 50%;
     }
+    .axit__wrap-right {
+        display: flex;
+        flex-wrap: wrap;
+        width: 50%;
+        margin: 0 auto;
+}
+    .form__content {
+        padding: 15px 0 30px
     
+}
 }
 
 
