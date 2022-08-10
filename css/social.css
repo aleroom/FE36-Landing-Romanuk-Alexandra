@@ -50,8 +50,9 @@
 }
 
 .facebook, .twitter, .google, .pinterest, .instagram, .wifi, .messenger {
-    font-size: 30px;
+    font-size: 40px;
     cursor: pointer;
+    transition: 0.3s;
 }
 .facebook a, .twitter a, .google a, .pinterest a, .instagram a,  .wifi a, .messenger a{
     color: rgb(177, 175, 175);

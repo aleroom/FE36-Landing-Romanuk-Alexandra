@@ -9,6 +9,7 @@
     padding: 22px 0;
 }
 
+
 .header__axit {
     display: flex;
     justify-content: space-between;
@@ -16,20 +17,15 @@
    
 }
 
-.header__axit-logo {
+.header__axit-logo a{
     text-transform: uppercase;
     color: #fff;
-    
     font-style: normal;
     font-weight: 400;
-    
-    /*font-family: 'Raleway', sans-serif;*/
-    
-}
-.header__axit-logo span {
     font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    
 }
-
 .it {
     color: #EC7979;
     font-size: 30px;
@@ -41,9 +37,7 @@
     justify-content: space-between;
     align-items: center;
     width: 500px;
-    
-    
-    
+  
 }
 
 .axit_nav-item {
@@ -71,29 +65,26 @@
 
 
 
-@media (max-width: 650px){
+@media (max-width: 700px){
     .axit_nav-item {
         font-size: 18px;
     }
 }
  
-@media (max-width: 620px){
+@media (max-width: 650px){
     #header {
         position: relative;
     }
     .header__axit{
-        display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
         margin: 0 -15px;
     }
     .header__axit-logo{
-        margin-bottom: 20px;
+        margin-bottom: 19px;
 
     }
-    .axit_nav-item {
-        font-size: 1.2em;
+    .axit_nav-item a{
+        font-size: 1.1rem;
         width: 30%;
     }
     
@@ -105,30 +96,46 @@
     }
     
     .header__axit{
-        display: flex;
+        margin: 0 15px;
         flex-direction: row;
-        justify-content: center;        
-    }
+        justify-content: space-between;
+        }
     .header__axit-logo {
-        font-size: 20px;
-        margin-right: 40px;
-    }
-    .header__axit-logo span {
-        font-size: 2em;
-    }
-    .axit_nav{
-        display: flex;
-        flex-direction: column;
-        align-items: start;
-        
+        margin-bottom: 0;
 
     }
-    .axit_nav-item{
+    .header__axit-logo a{
         
-        font-size: 2em;
+        font-size: 40px;
+        
+    }
+    .header__axit-logo span{
+    
+        font-size: 40px;
+        
+    }
+   
+    .axit_nav{
+        flex-direction: column;
+        align-items: start;
+        width: 50%;
+        
+    }
+    .axit_nav-item{
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        margin-bottom: 20px;
         
         
     }
+    .axit_nav-item:last-child {
+        margin-bottom: 0;
+    }
+    .axit_nav-item a{
+        font-size: 22px;
+    }
+
     .axit_nav a:hover {
         color: #EC7979;
     }
@@ -142,7 +149,10 @@
 
     }
     .header__axit-logo  {
-        margin-right: 20px;
+        margin-right: 40px;
+    }
+    .axit_nav-item a{
+        font-size: 25px;
     }
     
 }

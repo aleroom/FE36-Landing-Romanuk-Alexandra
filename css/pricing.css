@@ -70,6 +70,7 @@
         align-items: center;
         margin: 0 -15px;
         flex-wrap: wrap;
+        width: 100%;
 
     }
     .list {
@@ -78,14 +79,17 @@
     .list:last-child {
         margin-bottom: 0px;
     }
+    .list__item--tariff {
+        background-color: #805959;
+    }
+    .list__item--price {
+        background-color: #a76565;
+    }
+    .list__item--status {
+        background-color: #eb9f9f;
+    }
         
     
 }
 
 
-@media (max-width:550px) {
-    .pricing__wrap {
-        width: 100%;
-        
-    }
-}
